@@ -1,125 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="css/main.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Two Boxes</title>
-    <style>
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-       
-        .outer-box {
-            width: 600px;
-            height: 700px;
-            background-color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .outer-image {
-            width: 400px;
-            height: 100px; 
-            position: absolute;
-            top: 60px;
-        }
-
-        .inner-box {
-            width: 400px;
-            height: 380px;
-            background-color: #de255f;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column; 
-        }
-
-        .phone-form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 20px; 
-        }
-
-        .phone-input {
-            width: 300px;
-            height: 50px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-        }
-
-        input::placeholder {
-            font-style: oblique; 
-            color: #999; 
-            text-align: center;
-            font-size: 25px;
-        }
-
-        .inner-text {
-            font-size: 24px;
-            color: white;
-            text-align: center;
-            margin-top: 70px; 
-        }
-
-        .terms-text {
-            font-size: 16px;
-            color: white;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .button-container {
-        	margin-top: 25px;
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-        }
-
-        .button {
-            padding: 30px 30px;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-            background-color: #d3d3d3;
-        }
-
-        .close-button {
-            width: 200px;
-            color: white;
-        }
-        
-        .confirm-button {
-            width: 199px;
-        }
-
-        .call-icon {
-            position: absolute;
-            bottom: 120px;
-            font-size: 24px;
-            align-items: center;
-        }
-
-        .call-icon::before {
-            content: "📞"; /* Unicode for the telephone icon */
-            margin-right: 10px; /* Adjust spacing */
-        }
-
-        .phone-number {
-            font-size: 25px;
-        }
-
-    </style>
 </head>
 <body>
     <div class="container">
         <div class="outer-box">
-            <img src="bkash_payment.png" alt="Image" class="outer-image">
+            <img src="css/img/bkash_payment.png" alt="Image" class="outer-image">
             <div class="inner-box">
                 <p class="inner-text">Your bKash Account number</p>
                 <form class="phone-form">
